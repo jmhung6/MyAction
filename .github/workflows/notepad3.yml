@@ -1,0 +1,14 @@
+name:open notepad
+
+on:
+  push:
+   branches:
+     - main
+  workflow_dispatch:
+jobs:
+  open_notepad:
+    run-on:windows_latest
+  stps:
+  - name:opne notepad
+  run:srart-process "notepad.exe"
+  shell:pwsh
