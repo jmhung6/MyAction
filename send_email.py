@@ -4,7 +4,7 @@ from sendgrid.helpers.mail import Mail, Email, To, Content
 
 def send_email():
     # 從 GitHub Secrets 中獲取 SendGrid API 密鑰
-    sendgrid_api_key = os.getenv('FirstApiKey')
+    sendgrid_api_key = os.getenv('SENDGRID_API_KEY')
 
     if not sendgrid_api_key:
         print("SENDGRID_API_KEY is not set.")
