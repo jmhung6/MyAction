@@ -1,4 +1,4 @@
-name:open notepad
+name:open_notepad
 
 on:
   push:
