@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: 執行單行
-        run: 大家好!
+        run: echo 大家好!
 
       # Runs a set of commands using the runners shell
       - name: 執行多行
         run: |
-          第一行,
-          第二航.
+          echo 第一行,
+          echo 第二航.
