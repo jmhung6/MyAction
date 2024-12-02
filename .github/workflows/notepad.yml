@@ -19,7 +19,7 @@ on:
 jobs:
   open_notepad:
  # run-on:windows-latest
-  step:
+  stps:
     - name:開啟記事本
       run:start-process "notepad.exe"
       shell:pwsh
