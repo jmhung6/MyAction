@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: CI2
 
 # Controls when the workflow will run
 on:
@@ -26,11 +26,11 @@ jobs:
       - uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: 執行單行
+        run: 大家好!
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: 執行多行
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          第一行,
+          第二航.
